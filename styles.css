@@ -1,1 +1,36 @@
 /*  your css code here. If applicable */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.hero img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.content {
+    max-width: 500px;
+}
+
+.content h1 {
+    font-size: 48px;
+}
+
+.content p {
+    font-size: 20px;
+}
+
+.explore {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #e60023;
+    color: white;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
